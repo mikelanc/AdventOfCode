@@ -1,0 +1,31 @@
+source /home/mikel/dev/AdventOfCode/python/venv_aoc_python/bin/activate
+ls
+which pip
+which python
+which python3
+python -m pip install advent-of-code-data advent-of-code-ocr parse pytest numpy colorama rich 
+python3 -m pip freeze > requirements.txt
+cat requirements.txt 
+ls
+git add requirements.txt 
+ls
+git status
+git add 2019
+git status
+git commit -m "adding python"
+git push
+vi ~/.ssh/known_hosts
+ls
+vi .gitignore 
+git status
+cd 2019/01_the_tyranny_of_the_rocket_equation/
+ls
+touch input.txt
+python aoc201901.py input.txt 
+cd ../../
+git status
+git add 2019
+git status
+git commit -m "201901 working"
+git push
+cp ~/.bash_history 2019/01_the_tyranny_of_the_rocket_equation/bash_history
