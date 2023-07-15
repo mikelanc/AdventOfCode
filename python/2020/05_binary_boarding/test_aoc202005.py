@@ -31,8 +31,8 @@ def test_parse_example1(example1):
 # @pytest.mark.skip(reason="Not implemented")
 def test_part1_example1(example1):
     """Test part 1 on example input."""
-    # assert aoc202005.part1(example1) == [(44 * 8) + 5, 567, 119, 820]
-    assert aoc202005.part1(example1) == 820
+    assert aoc202005.part1(example1)[0] == [(44 * 8) + 5, 567, 119, 820]
+    assert aoc202005.part1(example1)[1] == 820
 
 
 @pytest.mark.skip(reason="Not implemented")
