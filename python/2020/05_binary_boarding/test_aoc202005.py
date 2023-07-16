@@ -25,20 +25,20 @@ def example2():
 # @pytest.mark.skip(reason="Not implemented")
 def test_parse_example1(example1):
     """Test that input is parsed properly."""
-    assert example1 == ["FBFBBFFRLR", "BFFFBBFRRR", "FFFBBBFRRR", "BBFFBBFRLL"]
-
+    #assert example1 == ["FBFBBFFRLR", "BFFFBBFRRR", "FFFBBBFRRR", "BBFFBBFRLL"]
+    assert example1 == [(44 * 8) + 5, 567, 119, 820]
 
 # @pytest.mark.skip(reason="Not implemented")
 def test_part1_example1(example1):
     """Test part 1 on example input."""
-    assert aoc202005.part1(example1)[0] == [(44 * 8) + 5, 567, 119, 820]
-    assert aoc202005.part1(example1)[1] == 820
+    assert aoc202005.part1(example1) == 820
 
 
-@pytest.mark.skip(reason="Not implemented")
-def test_part2_example1(example1):
-    """Test part 2 on example input."""
-    assert aoc202005.part2(example1) == ...
+#@pytest.mark.skip(reason="Not implemented")
+def test_part2():
+    """Test part 2"""
+    seat_ids = [3, 9, 4, 8, 5, 10, 7, 11]
+    assert aoc202005.part2(seat_ids) == 6
 
 
 @pytest.mark.skip(reason="Not implemented")

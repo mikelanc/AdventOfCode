@@ -1,0 +1,1890 @@
+ls
+pwd
+ls
+exit
+apt-cache search homebrew
+apt-get update
+sudo apt-get update
+apt-cache search homebrew
+apt-cache search linuxbrew
+sudo apt-get install build-essential curl file git
+pw
+pwd
+ls
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >>~/.profile
+cat ~/.profile
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+brew install gcc
+brew install node
+npm -v
+npx -v
+npx create-react-app gallery-test
+npm start
+pwd
+cd gallery-test/
+npm start
+pwd
+npm eject
+npm run eject
+npm start
+npm test
+npm install flux@3.1.3 react-router-dom@5.0.0 bootstrap@4.3.1
+npm install -D cross-env@5.2.0 npm-run-all@4.1.5 json-server@0.15.0
+npm run start:api
+npm install -D cross-env@5.2.0 npm-run-all@4.1.5 json-server@0.15.0
+npm run start:api
+npm start
+npm install -D cross-env@5.2.0 npm-run-all@4.1.5 json-server@0.15.0
+npm run start:api
+npm run prestart:api
+npm start
+npm run start:api
+npm start
+npm 
+cd ..
+history | less
+npx create-react-app test
+cd test
+ls
+less package.json 
+ls
+cd gallery-test/
+s
+ls
+pwd
+npm list
+npm show
+ls
+less README.md 
+ls
+cd ..
+ls
+pwd
+mkdir pluralsight
+cd pluralsight
+git clone https://github.com/coryhouse/react-flux-building-applications.git
+ls
+cd react-flux-building-applications/
+ls
+cp -rf tools ../../gallery-test/.
+ls
+cd src
+ls
+cd api
+ls
+cd ..
+cp -rf api ../../../gallery-test/src/.
+cd ../../
+s
+cd ..
+ls
+rm -rf test gallery-test
+history | less 
+pwd
+l
+ls
+npx create-react-app gallery-test
+npm start
+ls
+cd gallery-test/
+ls
+npm start
+ls
+cp -rf ../pluralsight/react-flux-building-applications/src/api src/.
+cp -rf ../pluralsight/react-flux-building-applications/tools .
+npm list
+ls
+npm run start:api
+npm install -D cross-env@5.2.0 npm-run-all@4.1.5 json-server@0.15.0
+npm run start:api
+npm start
+npm install flux@3.1.3 react-router-dom@5.0.0 bootstrap@4.3.1
+npm start
+ethtool 
+sudo apt-get install ethtool
+ethtool
+ip a
+ethtool -b
+ethtool -v
+ethtool -i
+ethtool -i wifi0
+sudo ethtool -i wifi0
+sudo ethtool -v
+tcpdump
+sudo apt-get update tcpdump
+sudo apt-get install tcpdump
+tcpdump -i wifi0
+sudo tcpdump -i wifi0
+sudo tcpdump
+tcpdump
+sudo tcpdump
+ip a
+sudo tcpdump wifi1
+sudo tcpdump net wifi1
+sudo tcpdump net wifi2
+sudo tcpdump 
+sudo tcpdump -i all
+pwd
+ls
+npm install -g expo-cli
+pwd
+ls
+mkdir dev
+ls
+cd dev
+ls
+git clone git@github.com:mikelanc/skeleton-python-app.git
+ssh-keygen
+cat ../.ssh/id_rsa.pub 
+git clone git@github.com:mikelanc/skeleton-python-app.git
+ls
+cd skeleton-python-app/
+ls
+vi README.md 
+git status
+git add README.md 
+git commit -m "test commit"
+git config --global user.email mike.lancaster@db.com
+git config --global user.name "Mike Lancaster"
+git commit -m "test commit"
+git push
+python3 -m venv venv
+sudo apt-get install python3
+apt-get install imagemagik
+sudo apt-get install imagemagik
+sudo apt-get install imagemagick
+sudo apt-get install imagemagick --fix-missing
+pip --version
+python --versoin
+python --version
+sudo apt-get install -y python3-venv
+ls
+#python3 -m venv runalong
+ls
+cd ..
+python3 -m venv runalong
+ls
+cd runalong/
+ls
+pwd
+ls
+cd ..
+source runalong/bin/activate
+ls
+cd runalong/
+ls
+python --version
+pip --version
+pip install flask
+ls
+cd bin
+ls
+cd ..
+ls
+touch app.py
+/usr/bin/python3 /home/mikel/.vscode-server/extensions/ms-python.python-2020.9.114305/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user
+python app.py 
+source runalong/bin/activate
+source bin/activate
+ls
+python app.py 
+apt install sqllite
+sudo apt install sqlite
+sqlite along.db
+python app.py 
+ls
+file along.db 
+sqlite along.db .dump > along.sql
+sqlite3 along.db 
+rm along.db 
+sqlite
+sqlite3 along.db < along.sql 
+file along.db 
+python app.py 
+sqlite3 along.db 
+vi along.sql 
+rm along.db 
+sqlite3 along.db < along.sql 
+ls
+rm along.db 
+sqlite3 along.db < along.sql 
+rm along.db 
+sqlite3 along.db < along.sql 
+python app.py 
+rm along.db 
+sqlite3 along.db < along.sql 
+python app.py 
+ls
+flask start#
+flask start
+ls
+cat app.py 
+flask start
+FLASK_APP=api.py
+pip install python-dotenv
+flask start
+flask run
+cd ..
+;s
+ls
+cd ..
+ls
+npx 
+ls
+mv runalong api
+mv -rf runalong api
+ls
+ls -la
+id
+mv -rf runalong api
+mv -f runalong api
+pwd
+ls
+ls -la
+touch api
+mv runalong/* api 
+rm api
+mkdir api
+mv runalong/* api 
+ls
+cd api/
+ls
+cd .
+cd ..
+mkdir backup
+mv api/along.db backup/.
+mv api/along.sql backup/.
+mv api/app.py backup/.
+ls
+ls api/
+cat backup/app.py 
+ls
+rm -rf api
+rm -rf runalong
+npx create-react-app along
+cd along/
+ls
+mkdir api
+ls
+cd api/
+ls
+python3 -m venv alongapi
+alongapi/bin/activate
+source alongapi/bin/activate
+ls
+pip install flask python-dotenv
+ls
+cd api
+ls
+source alongapi/bin/activate
+pip --version
+pip install flask python-dotenv
+vi .flaskenv
+cp ../../backup/app.py api.py
+flask run
+ls
+rm along.db 
+cp ../../backup/along.* .
+ls
+flask run
+cd ..
+ls
+vi .gitignore 
+ls
+yarn start
+apt-get install yarn
+sudo apt-get install yarn
+yarn start
+pwd
+ls
+yarn test
+pwd
+yarn help
+yarn init
+yarn
+pwd
+ls
+node
+npm
+cd ..
+ls
+npm i -g create-react-app
+create-react-app along
+pwd
+ls
+cd along/
+ls
+mv -f api ../.
+sudo mv -f api ../.
+ls
+cd api/
+ls
+cd ..
+ls
+node start
+yarn start
+pwd
+cat package.json 
+yarn start
+yarn add react-scripts
+sudo apt remove cmdtest
+sudo apt-get remove cmdinstall;sudo apt update;sudo apt-get install yarn
+ls
+yarn start
+yarn -v
+sudo apt remove cmdtest
+npm -g i yarn
+yarn start
+yarn start-api
+pw
+pwd
+cd ..
+cd along/
+ls
+mkdir api
+cd api/
+ls
+python3 -m venv venv
+ls
+cd venv/
+ls
+cd ..
+source venv/bin/activate
+_
+pip install flask python-dotenv
+ls
+pwd
+cd
+vi .flaskenv
+cd -
+ls
+cd venv/
+ls
+cd ..
+ls
+pwd
+flask run
+ls
+cd venv/
+ls
+cd ..
+ls
+cp ../../backup/along.* .
+cp ../../backup/app.py api.py
+ls
+cat api.py 
+flask run
+ls
+mv along.* venv/.
+mv api.py venv/.
+ls
+flask run
+pwd
+ls
+cd venv/
+ls
+flash run
+flask run
+mv ~/.flaskenv .
+flask run
+cd ../../
+ls
+yarn start-api
+pwd
+cd api
+venv/bin/flask run
+cp venv/.flaskenv .
+venv/bin/flask run
+cd ..
+yarn start-api
+cp api/.flaskenv .
+yarn start-api
+wd
+pwd
+yarn start-api
+cd api/venv/bin/
+ls
+flask run
+ls
+pwd
+yarn start-api
+pwd
+yarn start-api
+cd api/venv/bin
+pwd
+ls
+flask run
+./flash run
+./flask run
+cd
+cd dev/along/
+ls
+pwd
+yarn start-api
+ls
+yarn start-api
+venv-run flask run
+pwd
+ls
+locate venv-run
+cd api/
+ls
+pip install venv-run
+pip3 install venv-run
+venv-run flask run
+source venv/bin/activate
+flask run
+ls
+cd venv/bin/
+flask bin
+flask run
+ls
+pwd
+ls
+pwd
+ls
+history
+ls
+cd api/
+ls
+cat along.sql 
+sudo apt-cache update
+sudo apt-get update
+sudo apt install python3 python3-pip
+pwd
+ls
+cd dev
+ls
+pwd
+mkdir runalong
+cd runalong/
+ls
+python
+python3
+pip
+pip3
+exit
+/usr/bin/python3 /home/mikel/.vscode-server/extensions/ms-python.python-2020.9.114305/pythonFiles/pyvsc-run-isolated.py pip install -U black --user
+pwd
+ls
+cd api/
+ls
+sqlite3 along.db < along.sql 
+rm along.db 
+sqlite3 along.db < along.sql 
+rm along.db 
+sqlite3 along.db < along.sql 
+cat along.sql 
+sqlite3 along.db 
+ls
+sqlite3 along.db < along.sql 
+rm along.db 
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+ls
+rm along.db 
+sqlite3 along.db < along.sql 
+less along.
+less along.sql 
+sqlite3 along.db < along.sql 
+yarn add momemt
+yarn add moment
+python
+sqlite3 along.db < along.sql 
+python
+sqlite3 along.db < along.sql 
+rm along.db 
+sqlite3 along.db < along.sql 
+ks
+ls
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+cd api/venv/bin/
+venv-run flask run
+cd ../..
+venv-run flask run
+venv-run venv/bin/flask run
+pwd
+ls
+cp ../../venv/api.py .
+ls
+cd ../../
+ls
+venv-run flask run
+ls
+rm along.db 
+ls
+pwd
+cp venv/along.db .
+cp venv/along.sql .
+ls
+flask run
+pwd
+ls
+venv-run flask run
+cd ..
+yarn start-api
+npm outdate
+npm outdated
+npm update
+npm install
+npm outdated
+npx npm-check-updates - u
+npm outdated
+vi package.json 
+yarn start
+npm uninstall -g create-react-app
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install node.js
+node -v
+pwd
+ls
+cd ..
+ls
+diff backup/along.sql along/api/along.sql 
+diff backup/along.db along/api/along.db
+diff backup/app.py along/api/api.py 
+ls
+mv along along.old
+sudo mv along along.old
+rm -f along
+rm -rf along
+ls
+npx create-react-app along
+cd along/
+yarn start
+ls
+yarn start
+yarn install react-native-date-picker
+yarn add react-native-date-picker
+yarn start
+yarn remove react-native-date-picker
+yarn add react-datepicker
+yarn start
+pwd
+ls
+cd api/
+ls
+sqlite3 along.db < along.sql 
+sqlite3 along.db 
+sqlite3 along.db < along.sql 
+sqlite3 along.db 
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+whois alooong.com
+sqlite3 along.db < along.sql 
+sqlite3 along.db 
+yarn add react-facebook-login
+yarn start
+history
+yarn start-api
+pwd
+ls
+yarn start
+sqlite3 along.db 
+sqlite3 along.db < along.sql 
+pwd
+ls
+rm along.db 
+ls
+cd api/
+ls
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+sqlite along.db .dump > test.sql
+sqlite3 along.db .dump > test.sql
+less test.sql 
+sqlite3 along.db
+sqlite3 along.db .dump > test.sql
+cat test.sql 
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+sqlite3 along.db
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+pwd
+diff venv/bin/api.py venv/api.py 
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+select participants from offers where ID=3;
+sqlite3 along.db "select participants from offers;"
+sqlite3 along.db "select participants from offers where id=3;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select participants from offers where id=3;"
+sqlite3 along.db "select participants from offers;"
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+cd ..
+ls
+pwd
+ls
+git init
+ls
+ls -la
+rm -rf .git
+ls
+git init
+git add *
+git commit -m "First commit"
+git status
+git remote add origin git@github.com:mikelanc/along.git
+git push -u origin master
+ls
+git push
+git push -u origin master
+cd ..
+ls
+cp -rf along along.20201116
+ls
+cd along
+pwd
+ls
+ls -la api/
+rm api/along.db 
+yarn start-api
+vi package.json 
+yarn start-api
+vi package.json 
+yarn start-api
+cd ..
+l
+ls
+MyFirstProject-0e295e9b4ad4.json
+pwd
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+pwd
+ls
+cd along
+ls
+cd along
+ls
+cd ..
+cd api
+ls
+source venv/bin/activate
+pip install --upgrade google-cloud-firestore
+pip3 install --upgrade google-cloud-firestore
+python -m pip install --upgrade setuptools
+pip3 install --upgrade setuptools
+pip3 install --upgrade google-cloud-firestore
+ls
+locate 
+pwd
+ls
+cd ..
+ls
+cd api/
+ls
+cd venv/
+ls
+cd ..
+find . -name "requirements.txt
+"
+find . -name "requirements.txt"
+sudo apt-get update pip
+sudo apt-get upgrade pip
+sudo apt-get upgrade pip3
+pip3 install --upgrade pip3
+sudo apt-get upgrade pip3
+sudo apt-get upgrade pip
+pip install google-cloud-firestore
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install google-cloud-firestore
+history
+# Dockerfile
+FROM python:3.7-stretch
+RUN apt-get update -y
+RUN apt-get install -y python-pip python-dev build-essential
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
+ls
+cd venv/
+ls
+cd bin
+ls
+cd ..
+ls
+vi Dockerfile
+cd ..
+ls
+cd api/
+ls
+cd venv/
+ls
+cd bin
+ls
+mv api.py ../../
+ls
+cd ../../
+ls
+pip install requirements.txt 
+pip3
+pip3 list | grep flask
+pip list | grep flask
+pip list | grep -i flask
+pip3 list | grep -i flask
+pip install requirements.txt 
+pip2 install requirements.txt 
+pip3 install requirements.txt 
+pip3 install -r requirements.txt 
+pip install -r requirements.txt 
+l
+ls
+ls -la
+git status
+git add api.py requirements.txt Dockerfile .flaskenv 
+git commit -m "for docker"
+git push
+git push origin master
+flask run
+ls
+python api.py
+docker build -t along:latest .
+sudo apt-get install docker
+docker build -t along:latest .
+docker
+apt-get install docker
+pip3 install docker
+docker
+ping github.com
+ssh github.com
+whois lanc.co.uk
+sudo apt-get install whois
+whois lanc.co.uk
+whois lanc.net
+git status
+git ignore api/venv/bin/__pycache__/api.cpython-37.pyc
+vi .gitignore 
+git status
+git add api/venv/bin/api.py
+git add src/components/Offers.js
+git status
+git commit "Remove table and separate api"
+git commit -m "Remove table and separate api"
+git push origin master
+npm install react-google-login
+sudo npm install react-google-login
+npm install react-google-login
+history 
+yarn add react-google-login
+sqlite3 along.db "select * from offers;"
+pwd
+ls
+cd api/
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db < along.sql 
+sqlite3 along.db "select * from offers;"
+sqlite3 along.db "select * from offers order by activity_timestamp;"
+docker
+sudo apt-get install docker
+docker
+docker -v
+git status
+git add Dockerfile api.py 
+ls
+ls -la
+git add requirements.txt .flaskenv Dockerfile api.py 
+git commit -m "docker file update"
+git push origin master
+git add requirements.txt .flaskenv Dockerfile api.py 
+git commit -m "docker file update 2"
+git push origin master
+git add requirements.txt .flaskenv Dockerfile api.py 
+git commit -m "docker file update 3"
+git push origin master
+git add requirements.txt .flaskenv Dockerfile api.py 
+git commit -m "docker file update 4"
+git push origin master
+git add requirements.txt .flaskenv Dockerfile api.py 
+git commit -m "docker file update 5"
+git push origin master
+git add requirements.txt .flaskenv Dockerfile api.py ; git commit -m "docker file update 6"; git push origin master
+history | grep google
+less api.py 
+history | grep fire
+history | less
+git add requirements.txt .flaskenv Dockerfile api.py ; git commit -m "docker file update 7"; git push origin master
+ls
+cd ..
+ls
+touch nginx.conf
+git add nginx.conf 
+ls
+touch Dockerfile
+git add Dockerfile
+git status
+git add package.json 
+git add src/App.js 
+git status
+git add src/index.css
+git add src/components/Activity* src/components/Offer* src/components/Switch.js 
+git status
+git commit -m "Prep for react in google cloud run"
+git push origin master
+node -v
+node --version
+git add Dockerfile ; git commit -m "new dockerfile"; git push origin master
+git add package.json ; git commit -m "new dockerfile"; git push origin master
+git add package.json ; git commit -m "new port"; git push origin master
+git status
+git add package.json api/Dockerfile 
+git ignore
+vi .gitignore 
+git status
+git add api/api.py
+git commit -m "changes
+"
+git push origin master
+git add nginx.conf 
+git commit -m "nginx update"
+git push origin master
+git add nginx.conf 
+git commit -m "nginx update"
+git push origin master
+git add nginx.conf 
+git commit -m "nginx update"
+git push origin master
+git add nginx.conf 
+git commit -m "nginx update"
+git push origin master
+git status
+git add public/favicon.ico
+git add src/images/bubbleAndStride*
+git add .flaskenv 
+git add src/App.js 
+git add src/App.js
+git state
+git status
+git commit -m "facelift"
+git push origin master
+git status
+git add src/App.js  src/images/bubbleAndStride.png 
+whois
+whois lanc.uk
+whois bubbleandstride.uk
+whois bubbleandstride.co.uk
+host txt.bubbleandstride.uk
+host bubbleandstride.uk
+nslookup bubbleandstride.uk
+git status
+git add src/components/Offers.js api/api.py 
+git commit -m "join offer fix"
+git push origin master
+vi package.json 
+yarn start-api
+pip3 install pyOpenSSL
+yarn start-api
+vi package.json 
+cd api
+venv
+cd ..
+ls
+cd api/
+ls
+source venv/bin/activate
+pip3 install pyopenssl
+cd ..
+yarn start
+history
+cd api/
+ls
+pip3 list 
+pip3 list | grep goog
+cd ..
+yarn start
+git status
+git push origin master
+git --version
+sudo apt-get install git
+git config --global user.name "Mike Lancaster"
+git config --global user.email "mikelancuk@yahoo.co.uk"
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
+yarn start
+stty sane
+history
+yarn start-api
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+yarn start-api
+ls
+yarn start-api
+hst
+history
+yarn start-api
+host
+sudo apt-get install host
+host
+host bubbleandstride.uk
+host -a bubbleandstride.uk
+host -v bubbleandstride.uk
+host bubbleandstride.uk
+ping bubbleandstride.uk
+pwd
+git status
+git diff
+git status
+git diff nginx.conf 
+git add nginx.conf
+git status
+git diff src/App.js 
+git add src/App.js 
+git status
+git diff package.json 
+git commit -m "proxy change"
+git push origin master
+ls
+git status
+git add public/*
+git status
+git commit -m "logo changes"
+git push origin master
+git add nginx.conf
+git commit -m "https proxy"
+git push origin master
+yarn start-api
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+yarn start-api
+git status
+git add nginx.conf 
+git commit -m "https proxy"
+git push origin master
+start yarn
+yarn start
+npx browserslist --update-db
+yarn start
+ls
+git status
+git add src/components/Offers.js
+git commit -m "tidy"
+git push origin master
+ls
+less package.json 
+less README.md 
+ls
+cd src
+ls
+cd ..
+vi .env.development
+git add .env.development
+git diff src/App.js 
+vi .env.development
+cp .env.development .env.production
+vi .env.production 
+cat .env.production >> .env.development 
+vi .env.development
+vi .env.production 
+vi .env.development
+git status
+git add src/components/Offers.js src/components/OfferFormModal.js src/App.js
+git add api/api.py
+ls
+cat .env.production 
+cat .env.development 
+git add .env.production 
+git add .env.development 
+git status
+git diff package.json 
+git commit -m "Env config changes"
+git push origin master
+whois https://www.bubbleandstride.uk/
+whois www.bubbleandstride.uk
+whois bubbleandstride.uk
+whois bubbleandstride.co.uk
+yarn build
+vi Dockerfile 
+git add Dockerfile
+yarn start
+git status
+git add src/components/OfferFormModal.js
+git add src/components/Offers.js 
+git add src/components/OfferForm.js 
+git add src/components/OfferFormModal.js
+git add src/App.js
+git add api/api.py
+git commit -m "UI changes"
+git push origin master
+yarn start
+git status
+git add src/App.js src/components/Offers.js 
+git commit -m "updates for auth"
+git push origin master
+grep -r CLIENT *
+grep -r apps.googleusercontent.com
+grep -r apps.googleusercontent.com *
+yarn start
+less package.json 
+yarn start
+yarn start-api
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+yarn start-api
+git status
+git add src/App.js src/components/OfferForm.js src/components/Offer.js
+git add src/App.js src/components/OfferForm.js src/components/Offers.js
+git status
+git add src/App.js
+git status
+git add src/App.js
+git add api/api.py 
+git commit -m "Tweaks" 
+git push origin master
+yarn start-api
+less package.json 
+cd api
+ls
+ls -ltr
+ls -la
+less .flaskenv 
+ls
+vi config_production.py
+cp config_production.py config_development.py
+cat config_development.py
+cd ../
+yarn start-api
+yarn start
+npm i react-query
+yarn install react-query
+yarn add react-query
+yarn start
+yarn add axios
+git status
+git diff api/api.py 
+git diff
+git status
+git diff src/App.js
+yarn start
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+yarn start-api
+ls
+cd along
+ls
+cd ..
+ls
+cat MyFirstProject-0e295e9b4ad4.json 
+ls
+cd along
+ls
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/along/BubbleAndStride-2e3a4b3c2ef1.json"
+ls
+vi deploy.sh
+git add deploy.sh 
+cp deploy.sh deploy_api.sh 
+cp deploy.sh deploy_web.sh 
+vi deploy_api.sh 
+vi deploy_web.sh 
+git add deploy*
+cat deploy.sh 
+vi deploy.sh 
+vi deploy_web.sh 
+vi deploy_api.sh 
+git add deploy*
+git push origin master
+git status
+git commit -m "Switch to bubble google"
+git push origin master
+ls
+mkdir buildanddeploy
+mv deploy* buildanddeploy/.
+cd buildanddeploy/
+cat deploy.sh 
+mkdir bubbleandstride
+mkdir quick-flame-296721
+cp deploy* quick-flame-296721/.
+cp deploy* bubbleandstride/.
+cd quick-flame-296721/
+ls
+vi deploy.sh 
+cp deploy.sh deploy_api.sh 
+cp deploy.sh deploy_web.sh 
+vi deploy_api.sh 
+vi deploy_web.sh
+cd ../bubbleandstride/
+vi deploy.sh 
+cp deploy.sh deploy_api.sh 
+cp deploy.sh deploy_web.sh 
+vi deploy_web.sh
+vi deploy_api.sh
+cd ../../
+git add buildanddeploy
+ls
+git rm deploy.sh deploy_web.sh deploy_api.sh
+git status
+cat api/config_development.py 
+git commit -m "deploy scripts"
+git push origin master
+git status
+git add nginx.conf 
+git status
+git commit -m "new api url"
+git push origin master
+git status
+git add .env.production 
+git commit -m "New google auth key"
+git push origin master
+git status
+git add src/App.js src/components/Offers.js 
+git commit -m "stable for better mobile"
+git push origin master
+ls
+cd build
+ls
+cd ..
+cd buildanddeploy/
+ls
+git rm deploy*
+ls
+cat bubbleandstride/deploy.sh 
+cd ..
+ls
+cd api
+ls
+cat along.sql 
+cd ..
+git status
+git add     print(type(docs))
+git add src/components/ActivitySubTypeDropdown.js 
+git add api/api.py
+git commit -m "dropdowns"
+git push origin master
+git status
+git add src/App.js
+git commit -m "remove fb key"
+git push origin master
+git status package.json 
+git diff package.json
+git status
+git add .env.production
+git commit -m "remove source map for prod"
+git push origin master
+git status
+git add src/components/ActivitySubTypeDropdown.js src/components/ActivityTypeDropdown.js src/components/OfferForm.js src/components/OfferFormModal.js 
+git status
+git commit -m "adding security to gettypes"
+git push origin master
+git status
+git add src/App.js src/components/OfferFormModal.js 
+git commit -m "fix bearer issue"
+git push origin master
+vi todo.txt
+git statu
+git status
+yarn start-api
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/along/BubbleAndStride-2e3a4b3c2ef1.json"
+yarn start-api
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/along/BubbleAndStride-2e3a4b3c2ef1.json"
+yarn start
+yarn start-api
+ls
+cd api/
+ls
+cd ..
+ls
+cd ..
+ls
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+cd along
+yarn start-api
+yarn start
+ls
+vi package.json 
+yarn start
+yarn start-api
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+yarn start-api
+git status
+git add todo.txt 
+git add Message to say activity is full
+git add api/api.py 
+git add src/App.js src/components/OfferFormModal.js src/components/Offers.js
+git status
+git commit -m "Change to react-query"
+git push
+git push origin master
+git status
+git add src/components/OfferFormModal.js src/components/Offers.js todo.txt 
+git commit -m "add limit displays"
+git push origin master
+yarn start
+yarn start-api
+export GOOGLE_APPLICATION_CREDENTIALS="/home/mikel/dev/MyFirstProject-0e295e9b4ad4.json"
+yarn start-api
+dig testmerch.diretpos.de
+host testmerch.diretpos.de
+sudo apt-get install dns-tools
+apt-cache search dig
+apt-cache search host
+apt-cache search dig | grep dns
+sudo apt-get install dnsutils
+sudo apt-get update
+apt-get udate
+apt-get update
+sudo apt-get update
+sudo apt-cache update
+sudo apt-get upgrade
+sudo apt autoremove
+sudo apt-get install dns-utils
+sudo apt-cache search dns utils
+sudo apt-get install dnsutils
+sudo apt-get update
+sudo apt update
+sudo apt install dnsutils
+sudo apt dist-upgrade
+dig
+history
+host testmerch.diretpos.de
+host testmerch.directpos.de
+host -v testmerch.directpos.de
+host testmerch.gslb.test.voeb-zvd.de.
+dig testmerch.directpos.de
+host 195.200.207.230
+dig lanc.co.uk
+host 81.169.145.149
+dig testmerch.directpos.de
+host testmerch.directpos.de
+host -v testmerch.directpos.de
+host bbc.co.uk
+host -v bbc.co.uk
+host lanc.co.uk -v
+host lanc.co.uk
+host -v lanc.co.uk
+dig testmerch.directpos.de
+host testmerch.directpos.de
+host ~$ host -v testmerch.directpos.de
+Trying "testmerch.directpos.de"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44455
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;testmerch.directpos.de.                IN      A
+;; ANSWER SECTION:
+testmerch.directpos.de. 480     IN      CNAME   testmerch.gslb.test.voeb-zvd.de.
+testmerch.gslb.test.voeb-zvd.de. 30 IN  A       195.200.207.230
+Received 99 bytes from 8.8.8.8#53 in 191 ms
+Trying "testmerch.gslb.test.voeb-zvd.de"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30269
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;testmerch.gslb.test.voeb-zvd.de. IN    AAAA
+Received 49 bytes from 8.8.8.8#53 in 68 ms
+Trying "testmerch.gslb.test.voeb-zvd.de"
+Host testmerch.gslb.test.voeb-zvd.de not found: 2(SERVFAIL)
+Received 49 bytes from 8.8.4.4#53 in 1127 ms
+host testmerch.gslb.test.voeb-zvd.de.
+host -v testmerch.gslb.test.voeb-zvd.de.
+host pushpayments.db.com
+host -v testmerch.gslb.test.voeb-zvd.de.
+man host
+host -4 -v testmerch.gslb.test.voeb-zvd.de.
+host -v pushpayments.db.com
+host -v testmerch.gslb.test.voeb-zvd.de.
+cat .ssh/id_rsa.pub 
+ssh pi@mpp
+ssh pi@192.168.1.129
+ls
+cd dev
+ls
+cd ..
+ls
+pwd
+ssh pi@192.168.1.129
+scp pi@192.168.1.129:microbit.tgz .
+ls
+pwd
+/usr/bin/python3 /home/mikel/.vscode-server/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py /home/mikel/.vscode-server/extensions/ms-python.python-2021.5.926500501/pythonFiles/shell_exec.py /usr/bin/python3 /home/mikel/.vscode-server/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py pip install -U ipykernel --user /tmp/tmp-200TB8N1ttDvfjZ.log
+python ProductOfElements.py 
+/usr/bin/python3 /home/mikel/.vscode-server/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py pip install -U pytest --user
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/ProductOfElements.py
+pytest
+/usr/bin/python3 /home/mikel/.vscode-server/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py pip install -U pytest --user
+pytest
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/ProductOfElements.py
+pytest
+ls
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/ProductOfElements.py
+pytest
+pytest -q ProductOfElements.py 
+pytest
+pytest -v
+pytest -vv
+pytest 
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/ProductOfElements.py
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/test_ProductOfElements.py 
+touch test_binarytree.py
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/test_binarytree.py 
+pytest 
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/test_binarytree.py 
+pytest 
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/test_binarytree.py 
+pytest 
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/test_binarytree.py 
+pytest 
+ls
+touch test_lowestInt.py
+/usr/bin/python3 /home/mikel/dev/dailyChallenges/test_lowestInt.py 
+pytest 
+touch ProductOfElements.py
+curl
+curl -X 
+curl -X https://api.dev.dtfs-pay.com/notifications/dpg
+curl -X https://api.dev.dtfs-pay.com/notifications/dpg -h
+curl -X https://api.dev.dtfs-pay.com/notifications/dpg
+man curl
+info c
+curl --manual
+curl -X POST https://api.dev.dtfs-pay.com/notifications/dpg
+curl -X POST -d"" https://api.dev.dtfs-pay.com/notifications/dpg
+curl -d"" -X POST https://api.dev.dtfs-pay.com/notifications/dpg
+curl -H"Content-Length:0" -X POST https://api.dev.dtfs-pay.com/notifications/dpg
+ping 192.168.0.47
+ip a
+ssh 192.168.0.47
+sudo nmap -A 192.168.0.47
+ssh 192.168.0.47
+ssh 192.168.0.47 -i mike
+ssh mike@192.168.0.47
+ssh -V mike@192.168.0.47
+ssh -vvv mike@192.168.0.47
+dig -v
+dig google.co.uk
+nslookup -v google.co.uk
+nslookup -V google.co.uk
+cat /etc/resolv.conf 
+host 194.168.4.100
+host 194.168.8.100
+ip a
+ip r s
+ping 192.168.0.45
+ping 192.168.0.35
+ping 192.168.0.1
+ping 192.168.0.35
+ping 192.168.0.1
+pwd
+cd ..
+ls
+mkdir adventOfCode
+cd adventOfCode/
+ls
+python -m venv venv
+sudo apt-get update
+python3
+python3 -m venv venv
+ls
+source venv/bin/activate
+python -v
+python -m pip install advent-of-code-data
+python -m pip install advent-of-code-ocr
+python -m pip install pytest
+python -m pip install parse
+python -m pip install numpy
+source /home/mikel/dev/adventOfCode/venv/bin/activate
+mkdir 2019
+cd 2019/
+mkdir 01
+cd 01
+vi ~/.config/aocd/token
+exit
+source /home/mikel/dev/adventOfCode/venv/bin/activate
+/home/mikel/dev/adventOfCode/venv/bin/python /home/mikel/dev/adventOfCode/2019/01_the_tyranny_of_the_rocket_equation/test_aoc201901.py
+source /home/mikel/dev/adventOfCode/venv/bin/activate
+/home/mikel/dev/adventOfCode/venv/bin/python /home/mikel/dev/adventOfCode/2019/01_the_tyranny_of_the_rocket_equation/aoc201901.py
+source /home/mikel/dev/adventOfCode/venv/bin/activate
+echo $AOC_SESSION 
+copier gh:gahjelle/template-aoc-python advent_of_code/
+coper -help-all
+copier -help-all
+copier --help-all
+copier copy --help
+ls
+copier copy --help template-aoc-python 
+copier copy --help template-aoc-python 2
+copier copy template-aoc-python 2
+copier gh:gahjelle/template-aoc-python 2
+pipx install copier
+ls
+copier 
+copier copy template-aoc-python 3
+ls -ltr
+find . -name 3
+copier -v copy template-aoc-python 3
+copier -h copy template-aoc-python 3
+copier copy -h template-aoc-python 3
+copier copy --trust template-aoc-python 3
+ls
+cd 2019
+ls
+cd 01/
+ls
+cd ../../
+cd 3
+python3 download_input.py 
+python3 download_input.py 2019 1
+python3 -x download_input.py 2019 1
+python3 download_input.py 2019 1
+python3 download_input.py 2019 01
+python3
+cd ..
+ls
+rmdir 2019
+rmdir 2019/01
+rmdir 2019
+ls
+mv 3/2019 .
+ls
+rm -rf 3
+ls
+rm -rf template
+ls
+pytest 
+ls
+cd 2019/01_the_tyranny_of_the_rocket_equation/
+pytest 
+pytest test_aoc201901.py 
+source /home/mikel/dev/adventOfCode/venv/bin/activate
+/home/mikel/dev/adventOfCode/venv/bin/python /home/mikel/dev/adventOfCode/2019/01_the_tyranny_of_the_rocket_equation/aoc201901.py
+/home/mikel/dev/adventOfCode/venv/bin/python /home/mikel/dev/adventOfCode/2019/01_the_tyranny_of_the_rocket_equation/aoc201901.py 2019/01_the_tyranny_of_the_rocket_equation/input.txt 
+pytest 
+pytest --doctest-modules
+/home/mikel/dev/adventOfCode/venv/bin/python /home/mikel/dev/adventOfCode/2019/01_the_tyranny_of_the_rocket_equation/aoc201901.py 2019/01_the_tyranny_of_the_rocket_equation/input.txt 
+python --version
+source /home/mikel/dev/adventOfCode/venv/bin/activate
+vi /etc/apt/sources.list
+sudo vi /etc/apt/sources.list
+sudo apt-get update && sudo apt-get upgrade
+cat /etc/os-release 
+python --version
+python3 --version
+sudo apt full-upgrade
+exit
+python3 --version
+exit
+source /home/mikel/dev/adventOfCode/venv/bin/activate
+cd 2019/01_the_tyranny_of_the_rocket_equation/
+ls
+pytest test_aoc201901.py 
+cd
+ls
+pwd
+ls
+cd dev
+ls
+cd adventOfCode/
+ls
+cd venv/
+ls
+cd bin
+ls
+source activate
+ls
+cd ..
+ls
+pytest
+pytest 2019/01_the_tyranny_of_the_rocket_equation/test_aoc201901.py 
+exit
+python3 --version
+python3 -m venv --upgrade venv
+source venv
+source venv/bin/activate
+ls
+pytest
+pytest 2019/01_the_tyranny_of_the_rocket_equation/test_aoc201901.py 
+pip install pytest
+pytest 2019/01_the_tyranny_of_the_rocket_equation/test_aoc201901.py 
+/home/mikel/dev/adventOfCode/venv/bin/python /home/mikel/dev/adventOfCode/2019/01_the_tyranny_of_the_rocket_equation/aoc201901.py 2019/01_the_tyranny_of_the_rocket_equation/input.txt 
+ls
+copier copy --trust template-aoc-python .
+pip install copier
+pip install advent-of-code-data
+pip install advent-of-code-ocr
+pip install parse
+pip install numpy
+pip install colorama
+pip install rich
+copier copy --trust template-aoc-python .
+ls
+cd 2020/05_binary_boarding/
+ls
+cat example1.txt 
+cat example2.txt 
+cat input.txt 
+ls
+cat README.md 
+ls
+python3 aoc202005.py input.txt 
+cd ../../
+cd ..
+ls
+cd dailyChallenges/
+ls
+cd ..
+mv adventOfCode adventOfCodePython
+git clone git@github.com:mikelanc/AdventOfCode.git
+man git
+git --help
+git clone --config core.sshCommand="ssh -i ~/.ssh/id_rsa"
+ls ../.ssh/id_rsa
+git clone --config core.sshCommand="ssh -i ~/.ssh/id_rsa" git@github.com:mikelanc/AdventOfCode.git
+ssh-keygen -f "/home/mikel/.ssh/known_hosts" -R "github.com"
+git clone --config core.sshCommand="ssh -i ~/.ssh/id_rsa" git@github.com:mikelanc/AdventOfCode.git
+ls
+ls -ltr
+cd AdventOfCode/
+ls
+cd src
+ls
+cd ..
+mv src kotlin
+mv ../adventOfCodePython python
+ls -ltr
+cd python/
+ls
+cd ../..
+cd AdventOfCode/
+ls
+git status
+git rm src
+git rm -r src
+ls
+git status
+git add kotlin python
+ls
+cd python/
+ls
+cd template-aoc-python/
+ls
+ls -lta
+rm rf .git
+ls
+ls -la
+rm -rf .git
+ls -ltr
+ls
+cd ../../#
+cd ../../
+git status
+ls
+vi .gitignore
+git status
+vi .gitignore 
+git status
+git rm python
+git rm -r python
+ls
+git status
+mv .gitignore ~/.
+git status
+git rm -r python
+git rm -fr python
+ls
+git status
+git add python/
+git status
+cd python/
+ls
+cd 2019/01_the_tyranny_of_the_rocket_equation/.pytest_cache/cd ..
+ls
+cd venv/
+ls
+cd ..
+ls
+cd ..
+cd kotlin/
+ls
+cd ..
+ls python/2019/01_the_tyranny_of_the_rocket_equation/
+ls
+rm -rf python
+ls
+ls -la 
+rm -rf 2020
+ls
+cd ..
+rm -rf adventOfCode
+ls
+cd AdventOfCode/
+ls
+cd kotlin/
+cd ..
+git status
+git rm python/venv/lib/python3.7/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.pyx
+git rm python/venv/lib/python3.7/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.cp39-win_amd64.pyd
+git status
+git commit -m "move dir"
+git push
+vi ~/.ssh/known_hosts
+mkdir python
+ls
+cd python/
+cp ~/.gitignore .
+ls -ltr
+python -m venv venv
+python3 -m venv venv
+ls
+venv/bin/activate
+source venv/bin/activate
+ls
+exit
+ls
+pwd
+$ sh <(curl -L https://nixos.org/nix/install) --no-daemon
+ls -ltr
+sh <(curl -L https://nixos.org/nix/install) --no-daemon
+owsay Hello, Nix! | lolcat
+cowsay Hello, Nix! | lolcat
+cowsay Hello, Nix!
+cowsay Hello, Nix! | lolcat
+which cowsay
+exit
+curl http://172.19.251.71:5000/
+curl http://172.19.251.71:5000/ | jq '.message'
+python myapp.py 
+nix-channel --list
+python3 --version
+pytest
+python -v
+python --version
+copier
+copier gh:gahjelle/template-aoc-python .
+copier
+curl
+banner
+python3
+banner test
+python3
+copier gh:gahjelle/template-aoc-python
+copier gh:gahjelle/template-aoc-python .
+ls
+cd 2019/
+ls
+cd 01_the_tyranny_of_the_rocket_equation/
+ls
+cd ../../
+exit
+python --version
+ls
+python --version
+nix-shell 
+export "PATH=/home/mikel/.vscode-server/data/User/globalStorage/donjayamanne.python-environment-manager/symlinksV1/python_9f28825f8ae4bbef6e8b34b16c046dac010eae74da55a9636e78b93ff60c9c15794841f82a540b135ec20524992a93179f9fcc80149c1ea9da362b95dd4b7376:$PATH" && clear
+python --version
+python -h
+python --help
+python -c "print(sys.prefix)"
+python
+ls
+rm shell.nix 
+rm download_input.py 
+ls
+ls -la
+rm .shell.nix.swp 
+ls
+python -m venv venv_aoc_python
+cd dev/testnix/
+nix-shell 
+ls
+cd ..
+cd AdventOfCode/
+ls
+git status
+cd python/
+ls -ltr
+rm -rf venv
+ls -ltr
+git statu
+git status
+pwd
+ls -ltr
+cd ..
+git add python
+git commit -m "setting up python"
+ls -la
+pwd
+git push
+git status
+cd python/
+ls
+cp ../../testnix/shell.nix .
+vi shell.nix 
+cp shell.nix ../../testnix/shell.nix 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+nix-shell 
+vi shell.nix 
+ls
+ls -ltr /nix/
+cowsay no can do
+nix-shell -p cowsay lolcat
+ls
+cd dev
+ls
+mkdir testnix
+cd testnix/
+ls
+vi myapp.py
+vi shell.nix
+nix-shell 
+cd ../
+ls
+cd AdventOfCode/python/
+ls
+nix-shell 
+nix-shell -p 'python39.withPackages(ps: with ps; [ advent-of-code-data ])'
+nix-shell -p 'python39.withPackages(ps: with ps; [ advent-of-code-ocr ])'
+nix-shell -p 'python39.withPackages(ps: with ps; [ numpy ])'
+cd
+vi .profile 
+rm -rf .nix-profile .nix-defexpr .nix-channels 
+ls
+rm -fr /nix
+sudo rm -fr /nix
+source /home/mikel/dev/AdventOfCode/python/venv_aoc_python/bin/activate
+ls
+which pip
+which python
+which python3
+python -m pip install advent-of-code-data advent-of-code-ocr parse pytest numpy colorama rich 
+python3 -m pip freeze > requirements.txt
+cat requirements.txt 
+ls
+git add requirements.txt 
+ls
+git status
+git add 2019
+git status
+git commit -m "adding python"
+git push
+vi ~/.ssh/known_hosts
+ls
+vi .gitignore 
+git status
+cd 2019/01_the_tyranny_of_the_rocket_equation/
+ls
+touch input.txt
+python aoc201901.py input.txt 
+cd ../../
+git status
+git add 2019
+git status
+git commit -m "201901 working"
+git push
+cp ~/.bash_history 2019/01_the_tyranny_of_the_rocket_equation/bash_history
+source /home/mikel/dev/AdventOfCode/python/venv_aoc_python/bin/activate
+ls -ltr
+cd
+cd dev/AdventOfCode/python/.vscode/
+rm launch.json 
+source /home/mikel/dev/AdventOfCode/python/venv_aoc_python/bin/activate
+python aoc201901.py input.txt 
+cd 2020/05_binary_boarding/
+python aoc201901.py input.txt 
+ls
+python aoc202005.py input.txt 
+cd ../../
+copier gh:gahjelle/template-aoc-python .
+source /home/mikel/dev/AdventOfCode/python/venv_aoc_python/bin/activate
+tail ~/.bash_history 
+cp ~/.bash_history 2019/01_the_tyranny_of_the_rocket_equation/bash_history
+git status
+copier gh:gahjelle/template-aoc-python .
+python -m pip install copier
+python3 -m pip freeze > requirements.txt
+ls
+copier gh:gahjelle/template-aoc-python .
+copier copy gh:gahjelle/template-aoc-python .
+copier copy --trust template-aoc-python .
+ls
+copier copy --trust gh:gahjelle/template-aoc-python .
+vi /home/mikel/.config/aocd/token
+copier copy --trust gh:gahjelle/template-aoc-python .
+cp ~/dev/aoc202005.py 2020/05_binary_boarding/.
+cp ~/dev/test_aoc202005.py 2020/05_binary_boarding/.
+python 2020/05_binary_boarding/aoc202005.py 2020/05_binary_boarding/input.txt 
+git status
+git add requirements.txt 2019 2020
+git status
+vi .gitignore 
+git status
+git add .gitignore 
+git status
+git commit -m "202005 part 1 my version"
+git push
+cd 2020/05_binary_boarding/
+python aoc202005.py input.txt 
+git status
+git add aoc202005.py 
+python aoc202005.py input.txt 
+vi todo
+cat todo 
+git status
+git add aoc202005.py test_aoc202005.py todo 
+git commit -m "working on part 2"
+git pust
+git pusg
+git push
+cat todo 
+python aoc202005.py input.txt 
