@@ -6,21 +6,22 @@ import sys
 import pprint
 
 
-def parse(puzzle_input):
+def parse(puzzle_input: str):
     """Parse input."""
-    return puzzle_input.split("\n")
-    return puzzle_input.splitlines()
+    lines = puzzle_input.split("\n")
+    # return puzzle_input.splitlines()
+    return lines
 
 
-def part1(data):
+def part1(data: list):
     """Solve part 1."""
 
 
-def part2(data):
+def part2(data: list):
     """Solve part 2."""
 
 
-def solve(puzzle_input):
+def solve(puzzle_input: str) -> tuple[int, int]:
     """Solve the puzzle for the given input."""
     data = parse(puzzle_input)
     solution1 = part1(data)
