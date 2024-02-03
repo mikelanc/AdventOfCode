@@ -4,21 +4,27 @@
 import pathlib
 import sys
 import pprint
+import numpy as np
 
 
-def parse(puzzle_input: str):
+def parse(puzzle_input: str) -> list:
     """Parse input."""
     lines = puzzle_input.split("\n")
     # return puzzle_input.splitlines()
+    print(lines)
     return lines
 
 
-def part1(data: list):
+def part1(data: list) -> int:
     """Solve part 1."""
+    p1 = 0
+    return p1
 
 
-def part2(data: list):
+def part2(data: list) -> int:
     """Solve part 2."""
+    p2 = 0
+    return p2
 
 
 def solve(puzzle_input: str) -> tuple[int, int]:
